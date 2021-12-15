@@ -85,7 +85,7 @@ class MakeToCommand extends Command implements SignalableCommandInterface
      */
     public function getSubscribedSignals(): array
     {
-        return [\SIGINT];
+        return [];
     }
 
     public function handleSignal(int $signal): void
